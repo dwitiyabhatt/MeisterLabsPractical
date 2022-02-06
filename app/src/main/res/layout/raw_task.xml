@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardRoot"
+        style="@style/CommonCardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_12sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvProjectName"
+                tools:text="Project 1"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="@dimen/_14sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTaskName"
+                tools:text="Task 1"
+                android:layout_below="@+id/tvProjectName"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:fontFamily="@font/nunito_medium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</layout>

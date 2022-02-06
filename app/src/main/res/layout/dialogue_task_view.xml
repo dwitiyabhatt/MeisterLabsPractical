@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardRoot"
+        android:layout_margin="@dimen/_12sdp"
+        style="@style/CommonCardView">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:padding="@dimen/_12sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTaskTitle"
+        android:text="Appointment cancelled successfully and refund SMS sent to your mobile."
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/nunito_regular"
+        android:textColor="@color/title_text_color"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@color/gray_border"/>
+
+    <Button
+        android:id="@+id/btnAppointments"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/CommonButton"
+        android:text="@string/label_done"
+        />
+
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -43,7 +43,7 @@ desired, which saves all needed data.
 DONE : If internet connected there will be server search or, It will be local search
 ● The available database data should be used for an offline search.
 
-DONE 
+DONE : Everythinng is written in kotlin Except Pojo Classes. Because, Some Unknown SIGBart error was coming with the kotlin declared class so finally, I changed to Java class
 ● The code should be written in Kotlin (no need for RxJava or Dagger, please use
 DataBinding, LiveData and Room).
 
